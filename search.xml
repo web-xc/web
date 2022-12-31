@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>JavaScript 第三天</title>
-      <link href="/post/6e+47/"/>
-      <url>/post/6e+47/</url>
-      
-        <content type="html"><![CDATA[<h3 id="循环和数组"><a href="#循环和数组" class="headerlink" title="循环和数组"></a>循环和数组</h3><h3 id="for循环基本使用"><a href="#for循环基本使用" class="headerlink" title="for循环基本使用:"></a>for循环基本使用:</h3><ol><li>也是重复执行代码</li><li>好处: 把声明起始值、循环条件、变化值写到一起，让人一目了然</li><li>当如果明确了循环的次数的时候推荐使用for循环</li><li>当不明确循环的次数的时候推荐使用while循环</li></ol><h4 id="循环退出"><a href="#循环退出" class="headerlink" title="循环退出:"></a>循环退出:</h4><ol><li>continue：结束本次循环，继续下次循环</li><li>break：跳出所在的循环</li></ol><h3 id="for循环嵌套"><a href="#for循环嵌套" class="headerlink" title="for循环嵌套:"></a>for循环嵌套:</h3><ol><li>一个循环里再套一个循环，一般用在for循环里</li></ol><hr><h3 id="数组的基本使用"><a href="#数组的基本使用" class="headerlink" title="数组的基本使用:"></a>数组的基本使用:</h3><ol><li>数组(Array)是一种可以按顺序保存数据的数据类型</li><li>如果有多个数据可以用数组保存起来</li><li>数组是按顺序保存，所以每个数据都有自己的编号</li><li>计算机中的编号从0开始，所以小明的编号为0，小刚编号为1，以此类推</li><li>在数组中，数据的编号也叫索引或下标</li><li>数组可以存储任意类型的数据</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> JavaScript笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> JavaScript笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JavaScript 第二天</title>
       <link href="/post/623e/"/>
       <url>/post/623e/</url>
