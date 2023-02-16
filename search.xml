@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>JavaScript 第五天</title>
+      <link href="/post/cr38/"/>
+      <url>/post/cr38/</url>
+      
+        <content type="html"><![CDATA[<h4 id="什么是对象"><a href="#什么是对象" class="headerlink" title="什么是对象:"></a>什么是对象:</h4><ul><li>保存网站用户信息，比如姓名，年龄，电话号码… 用以前学的数据类型方便吗？</li></ul><ol><li>不方便，很难区分</li></ol><ul><li>我们是不是需要学习一种新的数据类型，可以详细的描述某个事物？</li></ul><ol><li><p>姓名, 年龄, 电话</p></li><li><p>对象（object）：JavaScript里的一种数据类型</p></li><li><p>可以理解为是一种无序的数据集合</p></li><li><p>用来描述某个事物，例如描述一个人</p></li><li><p>人有姓名、年龄、性别等信息、还有吃饭睡觉打代码等功能</p></li><li><p>如果用多个变量保存则比较散，用对象比较统一 </p></li><li><p>比如描述 班主任 信息：</p></li></ol><ul><li>静态特征 (姓名, 年龄, 身高, 性别, 爱好) &#x3D;&gt; 可以使用数字, 字符串, 数组, 布尔类型等表示  </li><li>动态行为 (点名, 唱, 跳, rap) &#x3D;&gt; 使用函数表示</li></ul><ol><li>对象是一种数据类型, 无序的数据的集合</li><li>无序的数据的集合, 可以详细的描述描述某个事物</li></ol><h3 id="对象使用"><a href="#对象使用" class="headerlink" title="对象使用:"></a>对象使用:</h3><ul><li>对象声明语法:</li></ul><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> 对象名 = &#123;&#125;</span><br></pre></td></tr></table></figure><h3 id="对象有属性和方法组成"><a href="#对象有属性和方法组成" class="headerlink" title="对象有属性和方法组成:"></a>对象有属性和方法组成:</h3><ul><li>属性：信息或叫特征（名词）。 比如 手机尺寸、颜色、重量等…</li><li>方法：功能或叫行为（动词）。 比如 手机打电话、发短信、玩游戏…</li></ul><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> 对象名 = &#123;</span><br><span class="line">    属性名: 属性值,</span><br><span class="line">    方法名: 函数</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure><h4 id="属性"><a href="#属性" class="headerlink" title="属性:"></a>属性:</h4><ol><li>数据描述性的信息称为属性，如人的姓名、身高、年龄、性别等，一般是名词性的</li><li>属性都是成 对出现的，包括属性名和值，它们之间使用英文 : 分隔</li><li>多个属性之间使用英文 , 分隔</li><li>属性就是依附在对象上的变量（外面是变量，对象内是属性）</li><li>属性名可以使用 “” 或 ‘’，一般情况下省略，除非名称遇到特殊符号如空格、中横线等</li><li>对象属性没有顺序, 属性和值用 ; 隔开, 多个属性用，逗号隔开</li></ol><h5 id="请声明一个产品对象，里面包如下信息："><a href="#请声明一个产品对象，里面包如下信息：" class="headerlink" title="请声明一个产品对象，里面包如下信息："></a>请声明一个产品对象，里面包如下信息：</h5><h3 id="属性访问"><a href="#属性访问" class="headerlink" title="属性访问:"></a>属性访问:</h3><ol><li>声明对象，并添加了若干属性后，可以使用 . 或 [] 获得对象中属性对应的值，我称之为属性访问</li><li>简单理解就是获得对象里面的属性值</li><li>问属性两种方式: 点形式 对象.属性   [] 形式 对象[‘属性’]</li><li>点后面的属性名一定不要加引号  [] 里面的属性名一定加引号 后期不同使用场景会用到不同的写法</li></ol><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> num1 = &#123;</span><br><span class="line">    <span class="attr">name</span>: <span class="string">&#x27;Mark&#x27;</span>,</span><br><span class="line">    <span class="attr">age</span>: <span class="number">20</span>,</span><br><span class="line">    <span class="attr">sex</span>: <span class="string">&#x27;男&#x27;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(num1.<span class="property">age</span>)</span><br><span class="line"><span class="variable language_">document</span>.<span class="title function_">write</span>(num1.<span class="property">sex</span>)</span><br></pre></td></tr></table></figure><h3 id="对象中的方法"><a href="#对象中的方法" class="headerlink" title="对象中的方法:"></a>对象中的方法:</h3><ol><li>数据行为性的信息称为方法，如跑步、唱歌等，一般是动词性的，其本质是函数</li><li>方法是由方法名和函数两部分构成，它们之间使用 : 分隔</li><li>多个属性之间使用英文 , 分隔</li><li>方法是依附在对象中的函数</li><li>方法名可以使用 “” 或 ‘’，一般情况下省略，除非名称遇到特殊符号如空格、中横线等</li></ol><h4 id="对象中的方法访问"><a href="#对象中的方法访问" class="headerlink" title="对象中的方法访问:"></a>对象中的方法访问:</h4><ol><li>声明对象，并添加了若干方法后，可以使用 . 调用对象中函数，我称之为方法调用</li><li>注意： 千万别忘了给方法名后面加小括号</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript 第四天</title>
       <link href="/post/7f86/"/>
       <url>/post/7f86/</url>
