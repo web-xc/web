@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://www.webxc.ml/categories/index.html</loc>
+    <loc>https://www.webxc.ml/about/index.html</loc>
     
     <lastmod>2023-02-20</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://www.webxc.ml/about/index.html</loc>
+    <loc>https://www.webxc.ml/categories/index.html</loc>
     
     <lastmod>2023-02-20</lastmod>
     
@@ -75,24 +75,6 @@
   
   <url>
     <loc>https://www.webxc.ml/tags/index.html</loc>
-    
-    <lastmod>2023-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.webxc.ml/post/6e+47/</loc>
-    
-    <lastmod>2023-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.webxc.ml/post/623e/</loc>
     
     <lastmod>2023-02-20</lastmod>
     
@@ -326,6 +308,15 @@
   </url>
   
   <url>
+    <loc>https://www.webxc.ml/post/3607511362/</loc>
+    
+    <lastmod>2023-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.webxc.ml/post/bea0/</loc>
     
     <lastmod>2023-02-20</lastmod>
@@ -363,15 +354,6 @@
   
   <url>
     <loc>https://www.webxc.ml/post/cf0e/</loc>
-    
-    <lastmod>2023-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.webxc.ml/post/3607511362/</loc>
     
     <lastmod>2023-02-20</lastmod>
     
@@ -551,6 +533,15 @@
   </url>
   
   <url>
+    <loc>https://www.webxc.ml/post/1775894433/</loc>
+    
+    <lastmod>2023-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.webxc.ml/post/f244/</loc>
     
     <lastmod>2023-02-20</lastmod>
@@ -560,7 +551,16 @@
   </url>
   
   <url>
-    <loc>https://www.webxc.ml/post/1775894433/</loc>
+    <loc>https://www.webxc.ml/post/6e+47/</loc>
+    
+    <lastmod>2023-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.webxc.ml/post/623e/</loc>
     
     <lastmod>2023-02-20</lastmod>
     
